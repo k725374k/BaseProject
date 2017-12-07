@@ -8,7 +8,6 @@ public class Triangle {
         this.e = new double[]{a, b, c};
         Arrays.sort(this.e);
     }
-
     public String getType() {
         if (e[0] + e[1] <= e[2]) {
             return "不是三角形";
